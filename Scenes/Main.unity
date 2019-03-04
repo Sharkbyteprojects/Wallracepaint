@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 352543860}
   - component: {fileID: 352543859}
   - component: {fileID: 352543862}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 540690086}
   - component: {fileID: 540690088}
   - component: {fileID: 540690087}
-  m_Layer: 31
+  m_Layer: 19
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   - component: {fileID: 845839873}
   - component: {fileID: 845839872}
   - component: {fileID: 845839871}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2594,7 +2594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889910678}
   - component: {fileID: 889910677}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2666,7 +2666,7 @@ GameObject:
   - component: {fileID: 1010638560}
   - component: {fileID: 1010638559}
   - component: {fileID: 1010638558}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: TRAP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2812,7 +2812,7 @@ GameObject:
   - component: {fileID: 1117464355}
   - component: {fileID: 1117464354}
   - component: {fileID: 1117464356}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2909,7 +2909,7 @@ GameObject:
   - component: {fileID: 1294309828}
   - component: {fileID: 1294309827}
   - component: {fileID: 1294309826}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3012,7 +3012,7 @@ GameObject:
   - component: {fileID: 1332152155}
   - component: {fileID: 1332152157}
   - component: {fileID: 1332152158}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3207,7 +3207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1420418105}
   - component: {fileID: 1420418104}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Music Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3400,7 +3400,7 @@ GameObject:
   - component: {fileID: 1559430369}
   - component: {fileID: 1559430368}
   - component: {fileID: 1559430367}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: evaluator.ora
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3508,6 +3508,154 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1695072817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1695072822}
+  - component: {fileID: 1695072821}
+  - component: {fileID: 1695072820}
+  - component: {fileID: 1695072819}
+  - component: {fileID: 1695072818}
+  m_Layer: 30
+  m_Name: TRAP (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!232 &1695072818
+DistanceJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695072817}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: -1.8000069, y: -0.25261784}
+  m_AutoConfigureDistance: 1
+  m_Distance: 2.720516
+  m_MaxDistanceOnly: 0
+--- !u!50 &1695072819
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695072817}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 40
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 14edc61d057dd9a4dbc20fc783ecfca6, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1695072820
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695072817}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.22, y: 0.19999999, z: 0.21, w: 0.31}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.67, y: 0.62}
+    newSize: {x: 0.67, y: 0.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.67, y: 0.62}
+  m_EdgeRadius: 0
+--- !u!212 &1695072821
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695072817}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e17a3647144aa294fb1029e937d59bef, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.67, y: 0.62}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1695072822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695072817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.92, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875503861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3519,7 +3667,7 @@ GameObject:
   - component: {fileID: 1875503864}
   - component: {fileID: 1875503863}
   - component: {fileID: 1875503862}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -3601,7 +3749,7 @@ GameObject:
   - component: {fileID: 1943868593}
   - component: {fileID: 1943868595}
   - component: {fileID: 1943868594}
-  m_Layer: 31
+  m_Layer: 30
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
