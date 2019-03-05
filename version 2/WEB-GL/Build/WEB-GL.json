@@ -1,0 +1,14 @@
+{
+"companyName": "Sharkbyteprojects",
+"productName": "Wallplay",
+"dataUrl": "WEB-GL.data.unityweb",
+"wasmCodeUrl": "WEB-GL.wasm.code.unityweb",
+"wasmFrameworkUrl": "WEB-GL.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "WEB-GL.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}
